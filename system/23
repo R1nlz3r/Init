@@ -1,0 +1,4 @@
+Pour se connecter graphiquement en tant que ce nouvel utilisateur,
+il faut changer d'utilisateur dans les options en haut à droite.
+Pour se connecter en shh en tant que ce nouvel utilisateur il suffit d'executer:
+"ssh user@127.0.0.1" qui pointe sur le loopback de la machine.

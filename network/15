@@ -1,0 +1,4 @@
+echo "46.19.122.85\t\tintra.42.fr" >> /etc/hosts
+dscacheutil -flushcache
+
+Pour ajouter la redirection en dur puis forcer la suppression du cache DNS.

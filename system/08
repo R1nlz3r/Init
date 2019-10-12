@@ -1,0 +1,7 @@
+.ssh/authorized_keys
+et
+.ssh/authorized_keys2
+↳ comme indiqué dans le fichier de configuration : /etc/ssd/sshd_config
+  Ils sont spécifiques à chaque utilisateur et peuvent être déplacés vers
+  /etc/ssh/keys/<user>/authorized_keys + un changement de config pour être sous
+  le contrôle de root

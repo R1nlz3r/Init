@@ -1,0 +1,3 @@
+dix -x $ip
+or
+nslookup $ip
